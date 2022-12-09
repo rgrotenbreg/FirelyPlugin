@@ -29,9 +29,8 @@ namespace IBRL.Firely.Plugin
 			var typeArgumentValue = args.First(a => a.ArgumentName == "type").ArgumentValue;
 
 			var argumentCollection = new ArgumentCollection(
-				new Argument(ArgumentSource.Internal, "_type", "NamingSystem"),
-				new Argument(ArgumentSource.Internal, "value", idArgumentValue)
-
+					new Argument(ArgumentSource.Internal, "_type", "NamingSystem"),
+					new Argument(ArgumentSource.Internal, "value", idArgumentValue)
 				);
 			var searchResults = await _administrationSearchRepository.Search(argumentCollection, new SearchOptions(VonkInteraction.all_read, new Uri("localhost:4080"), "Fhir4.0"));
 
