@@ -25,6 +25,7 @@ namespace IBRL.Firely.Plugin
 				.OnCustomInteraction(Vonk.Core.Context.VonkInteraction.type_custom, "preferred-id")
 				.AndResourceTypes(new[] { "NamingSystem" })
 				.AndMethod("GET")
+				.AndInformationModel("Fhir4.0")
 				.HandleAsyncWith<PreferredIdService>((svc, ctx) => svc.HandleRequest(ctx));
 			return builder;
 		}
