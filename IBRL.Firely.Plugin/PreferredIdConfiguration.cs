@@ -15,7 +15,7 @@ namespace IBRL.Firely.Plugin
 	{
 		public static IServiceCollection ConfigureServices(IServiceCollection services)
 		{
-			services.TryAddSingleton<PreferredIdService>();
+			services.TryAddScoped<PreferredIdService>();
 			return services;
 		}
 
