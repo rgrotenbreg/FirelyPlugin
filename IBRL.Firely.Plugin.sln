@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBRL.Firely.Plugin", "IBRL.Firely.Plugin\IBRL.Firely.Plugin.csproj", "{6AF54481-44DA-4E1F-A16E-6A43B0253A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBRL.Firely.Plugin.Tests", "IBRL.Firely.Plugin.Tests\IBRL.Firely.Plugin.Tests.csproj", "{3901095C-79EB-4B29-82B7-50260BB11942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AF54481-44DA-4E1F-A16E-6A43B0253A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF54481-44DA-4E1F-A16E-6A43B0253A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF54481-44DA-4E1F-A16E-6A43B0253A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF54481-44DA-4E1F-A16E-6A43B0253A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3901095C-79EB-4B29-82B7-50260BB11942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3901095C-79EB-4B29-82B7-50260BB11942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3901095C-79EB-4B29-82B7-50260BB11942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3901095C-79EB-4B29-82B7-50260BB11942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF0289DE-1DAF-426A-971F-444AB27C280C}
+	EndGlobalSection
+EndGlobal

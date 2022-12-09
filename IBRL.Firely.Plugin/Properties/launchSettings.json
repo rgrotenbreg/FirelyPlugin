@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "dotnet.exe",
+      "commandLineArgs": "C:\\Projects\\Firely\\FirelyServer\\Firely.Server.dll",
+      "workingDirectory": "C:\\Projects\\Firely\\FirelyServer"
+    }
+  }
+}

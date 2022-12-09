@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Projects\Firely\FirelyServer\plugins</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Custom.Hl7.Fhir.Support.Poco" Version="2.0.3" />
+    <PackageReference Include="Vonk.Core" Version="4.10.0" />
+    <PackageReference Include="Vonk.Fhir.R4" Version="4.10.0" />
+  </ItemGroup>
+
+</Project>
